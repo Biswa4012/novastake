@@ -1,0 +1,1154 @@
+<html lang="en"><head><meta charset="utf-8">
+<title>Novastake</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="dark">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&amp;display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://unpkg.com/lucide@latest"></script>
+<style>
+/* Default: paused */
+.animate-on-scroll { animation-play-state: paused !important; }
+/* Activated by JS */
+.animate-on-scroll.animate { animation-play-state: running !important; }
+</style>
+<link id="all-fonts-link-font-geist" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600;700&amp;display=swap"><style id="all-fonts-style-font-geist">.font-geist { font-family: 'Geist', sans-serif !important; }</style><link id="all-fonts-link-font-roboto" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&amp;display=swap"><style id="all-fonts-style-font-roboto">.font-roboto { font-family: 'Roboto', sans-serif !important; }</style><link id="all-fonts-link-font-montserrat" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&amp;display=swap"><style id="all-fonts-style-font-montserrat">.font-montserrat { font-family: 'Montserrat', sans-serif !important; }</style><link id="all-fonts-link-font-poppins" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&amp;display=swap"><style id="all-fonts-style-font-poppins">.font-poppins { font-family: 'Poppins', sans-serif !important; }</style><link id="all-fonts-link-font-playfair" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;900&amp;display=swap"><style id="all-fonts-style-font-playfair">.font-playfair { font-family: 'Playfair Display', serif !important; }</style><link id="all-fonts-link-font-instrument-serif" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:wght@400;500;600;700&amp;display=swap"><style id="all-fonts-style-font-instrument-serif">.font-instrument-serif { font-family: 'Instrument Serif', serif !important; }</style><link id="all-fonts-link-font-merriweather" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&amp;display=swap"><style id="all-fonts-style-font-merriweather">.font-merriweather { font-family: 'Merriweather', serif !important; }</style><link id="all-fonts-link-font-bricolage" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@300;400;500;600;700&amp;display=swap"><style id="all-fonts-style-font-bricolage">.font-bricolage { font-family: 'Bricolage Grotesque', sans-serif !important; }</style><link id="all-fonts-link-font-jakarta" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&amp;display=swap"><style id="all-fonts-style-font-jakarta">.font-jakarta { font-family: 'Plus Jakarta Sans', sans-serif !important; }</style><link id="all-fonts-link-font-manrope" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&amp;display=swap"><style id="all-fonts-style-font-manrope">.font-manrope { font-family: 'Manrope', sans-serif !important; }</style><link id="all-fonts-link-font-space-grotesk" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&amp;display=swap"><style id="all-fonts-style-font-space-grotesk">.font-space-grotesk { font-family: 'Space Grotesk', sans-serif !important; }</style><link id="all-fonts-link-font-work-sans" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800&amp;display=swap"><style id="all-fonts-style-font-work-sans">.font-work-sans { font-family: 'Work Sans', sans-serif !important; }</style><link id="all-fonts-link-font-pt-serif" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&amp;display=swap"><style id="all-fonts-style-font-pt-serif">.font-pt-serif { font-family: 'PT Serif', serif !important; }</style><link id="all-fonts-link-font-geist-mono" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@300;400;500;600;700&amp;display=swap"><style id="all-fonts-style-font-geist-mono">.font-geist-mono { font-family: 'Geist Mono', monospace !important; }</style><link id="all-fonts-link-font-space-mono" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&amp;display=swap"><style id="all-fonts-style-font-space-mono">.font-space-mono { font-family: 'Space Mono', monospace !important; }</style><link id="all-fonts-link-font-quicksand" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&amp;display=swap"><style id="all-fonts-style-font-quicksand">.font-quicksand { font-family: 'Quicksand', sans-serif !important; }</style><link id="all-fonts-link-font-nunito" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800&amp;display=swap"><style id="all-fonts-style-font-nunito">.font-nunito { font-family: 'Nunito', sans-serif !important; }</style></head>
+<body class="antialiased text-white bg-black" style="font-family: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, 'Helvetica Neue', 'Noto Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', sans-serif; overflow-x: hidden;">
+
+<!-- Background (component) added by Aura -->
+<div class="aura-background-component top-0 w-full -z-10 absolute h-[1100px]"><div class="aura-background-component top-0 w-full -z-10 absolute h-full">
+  <div data-us-project="BqS5vTHVEpn6NiF0g8iJ" class="absolute w-full h-full left-0 top-0 -z-10"></div>
+  <script type="text/javascript">
+    !function(){if(!window.UnicornStudio){window.UnicornStudio={isInitialized:!1};var i=document.createElement("script");i.src="https://cdn.jsdelivr.net/gh/hiunicornstudio/unicornstudio.js@v1.4.29/dist/unicornStudio.umd.js",i.onload=function(){window.UnicornStudio.isInitialized||(UnicornStudio.init(),window.UnicornStudio.isInitialized=!0)},(document.head || document.body).appendChild(i)}}();
+  </script>
+</div></div>
+
+<!-- Background gradient -->
+<div class="fixed inset-0 -z-10" style="">
+  <div class="bg-gradient-to-b from-purple-900/20 via-black to-black absolute top-0 right-0 bottom-0 left-0" style=""></div>
+  
+</div>
+
+<style class="">
+  @keyframes fadeSlideIn {
+    0% {
+      opacity: 0;
+      transform: translateY(30px);
+      filter: blur(8px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+      filter: blur(0px);
+    }
+    }
+
+    .newtons-cradle {
+      --uib-size: 50px;
+      --uib-speed: 1.2s;
+      --uib-color: #474554;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: var(--uib-size);
+      height: var(--uib-size);
+    }
+
+    .newtons-cradle__dot {
+      position: relative;
+      display: flex;
+      align-items: center;
+      height: 100%;
+      width: 25%;
+      transform-origin: center top;
+    }
+
+    .newtons-cradle__dot::after {
+      content: '';
+      display: block;
+      width: 100%;
+      height: 25%;
+      border-radius: 50%;
+      background-color: var(--uib-color);
+    }
+
+    .newtons-cradle__dot:first-child {
+      animation: swing var(--uib-speed) linear infinite;
+    }
+
+    .newtons-cradle__dot:last-child {
+      animation: swing2 var(--uib-speed) linear infinite;
+    }
+
+    @keyframes swing {
+      0% {
+        transform: rotate(0deg);
+        animation-timing-function: ease-out;
+      }
+
+      25% {
+        transform: rotate(70deg);
+        animation-timing-function: ease-in;
+      }
+
+      50% {
+        transform: rotate(0deg);
+        animation-timing-function: linear;
+      }
+    }
+
+    @keyframes swing2 {
+      0% {
+        transform: rotate(0deg);
+        animation-timing-function: linear;
+      }
+
+      50% {
+        transform: rotate(0deg);
+        animation-timing-function: ease-out;
+      }
+
+      75% {
+        transform: rotate(-70deg);
+        animation-timing-function: ease-in;
+      }
+    }
+
+    .stake-swap-animation-container {
+      position: relative;
+      width: 100px; /* Adjust size as needed */
+      height: 50px; /* Adjust size as needed */
+      margin-top: 1rem;
+    }
+
+    .stake-swap-animation-container .square {
+      width: 8px;
+      height: 30px;
+      background: rgb(71, 195, 248);
+      border-radius: 10px;
+      display: block;
+      animation: turn 2.5s ease infinite;
+      box-shadow: rgb(71, 195, 248) 0px 1px 15px 0px;
+    }
+
+    .stake-swap-animation-container .top {
+      position: absolute;
+      left: 40%;
+      top: 50%;
+      transform: rotate(90deg);
+    }
+
+    .stake-swap-animation-container .bottom {
+      position: absolute;
+      left: 40%;
+      top: 50%;
+      transform: rotate(-90deg);
+    }
+
+    .stake-swap-animation-container .left {
+      position: absolute;
+      left: 40%;
+      top: 50%;
+    }
+
+    .stake-swap-animation-container .right {
+      position: absolute;
+      left: 40%;
+      top: 50%;
+      transform: rotate(-180deg);
+    }
+
+    @keyframes turn {
+      0% {
+        transform: translateX(0) translateY(0) rotate(0);
+      }
+      70% {
+        transform: translateX(150%) translateY(50%) rotate(90deg);
+      }
+      100% {
+        transform: translateX(0) translateY(0) rotate(0);
+      }
+    }
+
+    .earn-govern-animation-container {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 80px;
+      margin-top: 1rem;
+    }
+
+    .earn-govern-animation-container .loader {
+      scale: 2;
+      height: 50px;
+      width: 40px;
+    }
+
+    .earn-govern-animation-container .box {
+      position: relative;
+      opacity: 0;
+      left: 10px;
+    }
+
+    .earn-govern-animation-container .side-left {
+      position: absolute;
+      background-color: #286cb5;
+      width: 19px;
+      height: 5px;
+      transform: skew(0deg, -25deg);
+      top: 14px;
+      left: 10px;
+    }
+
+    .earn-govern-animation-container .side-right {
+      position: absolute;
+      background-color: #2f85e0;
+      width: 19px;
+      height: 5px;
+      transform: skew(0deg, 25deg);
+      top: 14px;
+      left: -9px;
+    }
+
+    .earn-govern-animation-container .side-top {
+      position: absolute;
+      background-color: #5fa8f5;
+      width: 20px;
+      height: 20px;
+      rotate: 45deg;
+      transform: skew(-20deg, -20deg);
+    }
+
+    .earn-govern-animation-container .box-1 {
+      animation: from-left 4s infinite;
+    }
+
+    .earn-govern-animation-container .box-2 {
+      animation: from-right 4s infinite;
+      animation-delay: 1s;
+    }
+
+    .earn-govern-animation-container .box-3 {
+      animation: from-left 4s infinite;
+      animation-delay: 2s;
+    }
+
+    .earn-govern-animation-container .box-4 {
+      animation: from-right 4s infinite;
+      animation-delay: 3s;
+    }
+
+    @keyframes from-left {
+      0% {
+        z-index: 20;
+        opacity: 0;
+        translate: -20px -6px;
+      }
+      20% {
+        z-index: 10;
+        opacity: 1;
+        translate: 0px 0px;
+      }
+      40% {
+        z-index: 9;
+        translate: 0px 4px;
+      }
+      60% {
+        z-index: 8;
+        translate: 0px 8px;
+      }
+      80% {
+        z-index: 7;
+        opacity: 1;
+        translate: 0px 12px;
+      }
+      100% {
+        z-index: 5;
+        translate: 0px 30px;
+        opacity: 0;
+      }
+    }
+
+    @keyframes from-right {
+      0% {
+        z-index: 20;
+        opacity: 0;
+        translate: 20px -6px;
+      }
+      20% {
+        z-index: 10;
+        opacity: 1;
+        translate: 0px 0px;
+      }
+      40% {
+        z-index: 9;
+        translate: 0px 4px;
+      }
+      60% {
+        z-index: 8;
+        translate: 0px 8px;
+      }
+      80% {
+        z-index: 7;
+        opacity: 1;
+        translate: 0px 12px;
+      }
+      100% {
+        z-index: 5;
+        translate: 0px 30px;
+        opacity: 0;
+      }
+    }
+
+ .loader { 
+   position: relative; 
+   width: 108px; 
+   display: flex; 
+   justify-content: space-between; 
+ } 
+ .loader::after, 
+ .loader::before { 
+   content: ""; 
+   display: inline-block; 
+   width: 48px; 
+   height: 48px; 
+   background-color: #fff; 
+   background-image: radial-gradient(circle 14px, #0d161b 100%, transparent 0); 
+   background-repeat: no-repeat; 
+   border-radius: 50%; 
+   animation: eyeMove 10s infinite, blink 10s infinite; 
+ } 
+ @keyframes eyeMove { 
+   0%, 
+   10% { 
+     background-position: 0px 0px; 
+   } 
+   13%, 
+   40% { 
+     background-position: -15px 0px; 
+   } 
+   43%, 
+   70% { 
+     background-position: 15px 0px; 
+   } 
+   73%, 
+   90% { 
+     background-position: 0px 15px; 
+   } 
+   93%, 
+   100% { 
+     background-position: 0px 0px; 
+   } 
+ } 
+ @keyframes blink { 
+   0%, 
+   10%, 
+   12%, 
+   20%, 
+   22%, 
+   40%, 
+   42%, 
+   60%, 
+   62%, 
+   70%, 
+   72%, 
+   90%, 
+   92%, 
+   98%, 
+   100% { 
+     height: 48px; 
+   } 
+   11%, 
+   21%, 
+   41%, 
+   61%, 
+   71%, 
+   91%, 
+   99% { 
+     height: 18px; 
+   } 
+ } 
+  </style>
+<script class="">
+  (function () {
+    const style = document.createElement("style");
+    style.textContent = `
+      .animate-on-scroll { animation-play-state: paused !important; }
+      .animate-on-scroll.animate { animation-play-state: running !important; }
+    `;
+    document.head.appendChild(style);
+
+    const once = true;
+
+    if (!window.__inViewIO) {
+      window.__inViewIO = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("animate");
+            if (once) window.__inViewIO.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.2, rootMargin: "0px 0px -10% 0px" });
+    }
+
+    window.initInViewAnimations = function (selector = ".animate-on-scroll") {
+      document.querySelectorAll(selector).forEach((el) => {
+        window.__inViewIO.observe(el);
+      });
+    };
+
+    document.addEventListener("DOMContentLoaded", () => initInViewAnimations());
+  })();
+</script>
+
+<header class="relative">
+  <div class="sm:px-6 lg:px-8 max-w-7xl mx-auto px-4">
+    <!-- Nav -->
+    <nav class="flex mt-6 items-center justify-between">
+      <a href="/" class="text-2xl font-semibold tracking-tight font-geist">Novastake</a>
+
+      <div class="hidden md:flex md:gap-x-2 bg-white/5 border-white/10 border rounded-full pt-1 pr-1 pb-1 pl-1 backdrop-blur-lg gap-x-2 gap-y-1 items-center">
+        <a href="#originals" class="hover:text-white text-sm font-medium text-white/80 font-geist px-3 py-2">Products</a>
+        <a href="#library" class="px-3 py-2 text-sm font-medium text-white/80 hover:text-white font-geist">Ecosystem</a>
+        <a href="#plans" class="hover:text-white text-sm font-medium text-white/80 font-geist px-3 py-2">Pricing</a>
+        <a href="/#faq" class="hover:text-white text-sm font-medium text-white/80 font-geist px-3 py-2">Docs</a>
+        <div class="relative inline-block group text-xs rounded-full">
+          <button class="group relative inline-flex min-w-[120px] cursor-pointer transition-all duration-[1000ms] ease-[cubic-bezier(0.15,0.83,0.66,1)] hover:-translate-y-[3px] hover:text-white shadow-[0_2.8px_2.2px_rgba(0,0,0,0.3),_0_6.7px_5.3px_rgba(0,0,0,0.35),_0_12.5px_10px_rgba(0,0,0,0.4)] overflow-hidden font-semibold text-neutral-400 tracking-tight bg-neutral-800 border-neutral-600 border rounded-full pt-[12px] pr-[20px] pb-[12px] pl-[20px] items-center justify-center">
+            <span class="relative z-10 inline-flex items-center gap-2 font-medium text-xs rounded-full font-geist">Launch App</span>
+            <span class="pointer-events-none absolute bottom-0 left-1/2 right-1/2 h-px bg-gradient-to-r from-transparent via-white to-transparent opacity-80 transition-[left,right] duration-500 ease-out group-hover:left-0 group-hover:right-0 text-xs rounded-full"></span>
+          </button>
+          <span class="pointer-events-none absolute -bottom-3 left-1/2 z-0 h-6 w-44 -translate-x-1/2 opacity-0 transition-opacity duration-300 ease-out group-hover:opacity-100 text-xs rounded-full" style="background: radial-gradient(60% 100% at 50% 50%, rgba(255,255,255,.55), rgba(255,255,255,.28) 35%, transparent 70%); filter: blur(10px) saturate(120%);" aria-hidden="true"></span>
+        </div>
+      </div>
+
+      <button class="md:hidden inline-flex text-sm font-medium font-geist bg-white/5 border-white/10 border rounded-lg pt-2 pr-3 pb-2 pl-3 backdrop-blur gap-x-2 gap-y-2 items-center" id="mobileMenuToggle">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5"><path d="M4 5h16"></path><path d="M4 12h16"></path><path d="M4 19h16"></path></svg>
+        Menu
+      </button>
+    </nav>
+
+    <!-- Hero -->
+    <section class="z-10 sm:pt-20 md:pt-32 md:pb-32 text-center max-w-5xl mr-auto ml-auto pt-20 pb-32 relative">
+      <!-- Social proof -->
+      <div class="flex [animation:fadeSlideIn_1s_ease-out_0.1s_both] mb-6 gap-x-4 gap-y-4 items-center justify-center">
+        <div class="flex -space-x-3">
+          <img src="https://images.unsplash.com/photo-1633356122102-3fe601e05bd2?w=320&amp;q=80" alt="User 1" class="w-9 h-9 object-cover ring-black/60 ring-2 rounded-full">
+          <img src="https://images.unsplash.com/photo-1618641986557-1ecd230959aa?w=320&amp;q=80" alt="User 2" class="w-9 h-9 object-cover ring-black/60 ring-2 rounded-full">
+          <img src="https://images.unsplash.com/photo-1607746882042-944635dfe10e?w=320&amp;q=80" alt="User 3" class="w-9 h-9 object-cover ring-black/60 ring-2 rounded-full">
+          <img src="https://images.unsplash.com/photo-1621619856624-42fd193a0661?w=1080&amp;q=80" alt="User 4" class="w-9 h-9 object-cover ring-black/60 ring-2 rounded-full">
+          <img src="https://images.unsplash.com/photo-1527980965255-d3b416303d12?w=800&amp;q=80" alt="User 5" class="ring-2 ring-black/60 w-9 h-9 object-cover rounded-full">
+        </div>
+        <div class="flex flex-col items-start opacity-50">
+          <div class="flex items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-[16px] h-[16px] fill-current" style="width: 16px; height: 16px;"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fill-current w-[16px] h-[16px]" style="width: 16px; height: 16px; color: rgb(255, 255, 255);"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fill-current w-[16px] h-[16px]" style="width: 16px; height: 16px; color: rgb(255, 255, 255);"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fill-current w-[16px] h-[16px]" style="width: 16px; height: 16px; color: rgb(255, 255, 255);"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fill-current w-[16px] h-[16px]" style="width: 16px; height: 16px; color: rgb(255, 255, 255);"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+          </div>
+          <p class="mt-1 text-xs font-medium text-white/70 font-geist">Rated 4.9 • 200k+ builders • 5M+ wallets connected</p>
+        </div>
+      </div>
+
+      <h1 class="sm:text-6xl md:text-7xl [animation:fadeSlideIn_1s_ease-out_0.2s_forwards] text-4xl tracking-tighter font-geist opacity-0 max-w-5xl mr-auto ml-auto" style="">
+        Decentralizing the future of lending, one block at a time.
+      </h1>
+
+      <p class="sm:text-lg [animation:fadeSlideIn_1s_ease-out_0.3s_both] text-base font-normal text-white/70 font-geist max-w-2xl mt-6 mr-auto ml-auto">
+        Earn 12% APY on Your Digital Assets, Securely on the Blockchain.
+      </p>
+
+      <div class="flex flex-col sm:flex-row [animation:fadeSlideIn_1s_ease-out_0.4s_both] mt-8 gap-x-3 gap-y-3 items-center justify-center" id="cta">
+        <button class="group relative inline-flex min-w-[120px] cursor-pointer transition-all duration-[1000ms] ease-[cubic-bezier(0.15,0.83,0.66,1)] hover:-translate-y-[3px] hover:text-white shadow-[0_2.8px_2.2px_rgba(0,0,0,0.3),_0_6.7px_5.3px_rgba(0,0,0,0.35),_0_12.5px_10px_rgba(0,0,0,0.4)] overflow-hidden font-semibold text-neutral-400 tracking-tight bg-neutral-800 border-neutral-600 border rounded-full pt-[12px] pr-[20px] pb-[12px] pl-[20px] items-center justify-center">
+          <span class="relative z-10 font-medium rounded-full transition-all duration-500 ease-out group-hover:transform group-hover:translate-y-8 group-hover:opacity-0 group-hover:blur-md font-geist">Launch App</span>
+          <span class="absolute inset-0 z-10 flex items-center justify-center transition-all duration-300 ease-in-out transform -translate-y-8 group-hover:translate-y-0 group-hover:opacity-100 group-hover:blur-none font-medium opacity-0 rounded-full blur-md font-geist">Get API Key</span>
+          <span aria-hidden="true" class="absolute bottom-0 left-1/2 h-[1px] w-[70%] -translate-x-1/2 transition-all duration-[1000ms] ease-[cubic-bezier(0.15,0.83,0.66,1)] group-hover:opacity-80 bg-gradient-to-r from-transparent via-neutral-200 to-transparent rounded-full blur-[2px]"></span>
+          <span aria-hidden="true" class="absolute bottom-0 left-0 right-0 h-[100%] group-hover:opacity-60 transition-all duration-[1000ms] ease-[cubic-bezier(0.15,0.83,0.66,1)] pointer-events-none bg-gradient-to-t from-white/20 via-white/10 to-transparent rounded-full"></span>
+        </button>
+        <a href="#library" class="inline-flex items-center gap-2 hover:bg-white/10 text-base font-medium text-white/90 bg-white/5 border-white/10 border rounded-full px-3 py-2 backdrop-blur font-geist">
+          Read docs
+        </a>
+      </div>
+
+      <!-- Featured content preview -->
+      <div class="relative mt-16 [animation:fadeSlideIn_1s_ease-out_0.5s_both]">
+        <div class="relative mx-auto max-w-5xl rounded-2xl overflow-hidden border border-white/10">
+          <img src="image.png" alt="Featured protocol" class="w-full aspect-video object-cover">
+          <div class="bg-gradient-to-t from-black via-transparent to-transparent absolute top-0 right-0 bottom-0 left-0" data-element-locator="html &gt; body:nth-of-type(1) &gt; header:nth-of-type(1) &gt; div:nth-of-type(1) &gt; section:nth-of-type(1) &gt; div:nth-of-type(3) &gt; div:nth-of-type(1) &gt; div:nth-of-type(1)">
+</div>
+          <div class="absolute bottom-0 left-0 right-0 p-8">
+            <span class="inline-flex items-center rounded-full border border-emerald-500/30 bg-emerald-500/15 px-3 py-1 text-xs font-medium text-emerald-200 font-geist">NEW RELEASE</span>
+            <h3 class="text-3xl font-semibold mt-3 tracking-tight font-geist">NovaBridge v2</h3>
+            <p class="text-white/80 mt-2 max-w-xl font-geist text-center mx-auto">Cross-chain transfers with built-in relayers and gas abstraction. EVM + non-EVM support.</p>
+          </div>
+        </div>
+      </div><div class="flex justify-center mt-5" style="height: 48px;">
+          <span class="loader"></span> 
+</div>
+    </section>
+  </div>
+</header>
+
+<!-- Partners / Networks -->
+<section class="z-10 sm:px-6 lg:px-8 max-w-7xl mt-24 mx-auto px-4 pb-16 relative">
+  <p class="[animation:fadeSlideIn_1s_ease-out_0.5s_both] text-sm font-medium text-white/50 text-center mb-6 font-geist">Built for every chain</p>
+  <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-x-8 gap-y-8 items-center justify-items-center [animation:fadeSlideIn_1s_ease-out_0.6s_both]">
+    <div class="text-white/40 text-2xl font-semibold font-geist">Ethereum</div>
+    <div class="text-white/40 text-2xl font-semibold font-geist">Solana</div>
+    <div class="text-white/40 text-2xl font-semibold font-geist">Polygon</div>
+    <div class="text-white/40 text-2xl font-semibold font-geist">Base</div>
+    <div class="text-white/40 text-2xl font-semibold font-geist">Arbitrum</div>
+    <div class="text-white/40 text-2xl font-semibold font-geist">Optimism</div>
+  </div>
+</section>
+
+<!-- Value section -->
+<section class="overflow-hidden relative">
+  <div class="sm:px-6 lg:px-8 max-w-7xl mx-auto pt-16 px-4 pb-16">
+    <div class="grid md:grid-cols-2 gap-x-10 gap-y-10 items-center">
+      <div class="">
+        <h2 class="text-3xl sm:text-4xl md:text-5xl [animation:fadeSlideIn_1s_ease-out_0.1s_both] animate-on-scroll font-geist tracking-tighter" style="">Modular Web3 stack, end to end.</h2>
+        <p class="mt-4 text-base text-white/70 [animation:fadeSlideIn_1s_ease-out_0.2s_both] animate-on-scroll font-geist">Smart wallets, account abstraction, gasless transactions, NFT minting, DeFi aggregation, fiat on-ramps—ship secure dApps fast.</p>
+        <div class="flex [animation:fadeSlideIn_1s_ease-out_0.3s_both] animate-on-scroll mt-6 gap-x-3 gap-y-3 items-center">
+          <a href="#originals" class="inline-flex items-center gap-2 hover:bg-white/10 text-sm font-medium bg-white/5 border-white/10 border rounded-lg pt-2 pr-4 pb-2 pl-4 backdrop-blur font-geist">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4"><rect width="18" height="18" x="3" y="3" rx="2"></rect><path d="M7 3v18"></path><path d="M3 7.5h4"></path><path d="M3 12h18"></path><path d="M3 16.5h4"></path><path d="M17 3v18"></path><path d="M17 7.5h4"></path><path d="M17 16.5h4"></path></svg>
+            Explore modules
+          </a>
+          <a href="#cta" class="inline-flex items-center gap-2 hover:bg-purple-500 transition text-sm font-medium text-white bg-purple-600 rounded-lg pt-2 pr-4 pb-2 pl-4 font-geist">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4"><polygon points="6 3 20 12 6 21 6 3"></polygon></svg>
+            Start building
+          </a>
+        </div>
+      </div>
+      <div class="[animation:fadeSlideIn_1s_ease-out_0.4s_both] animate-on-scroll relative">
+        <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1600&amp;q=80" alt="Developer console preview" class="aspect-[4/3] w-full object-cover border-white/10 border rounded-2xl">
+        <div class="pointer-events-none absolute inset-0 rounded-2xl ring-1 ring-white/10"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Products / Modules -->
+<section class="z-10 sm:px-6 lg:px-8 max-w-7xl mx-auto pt-8 px-4 pb-20 relative" id="originals">
+  <div class="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-4 mb-8">
+    <div class="">
+      <p class="text-sm font-medium text-white/50 font-geist [animation:fadeSlideIn_1s_ease-out_0.1s_both] animate-on-scroll">Product suite</p>
+      <h2 class="text-3xl sm:text-4xl md:text-5xl font-geist tracking-tighter [animation:fadeSlideIn_1s_ease-out_0.2s_both] animate-on-scroll" style="">ChainVault Modules</h2>
+      <p class="mt-3 text-base text-white/70 font-geist [animation:fadeSlideIn_1s_ease-out_0.3s_both] animate-on-scroll">Composable building blocks for wallets, NFTs, DeFi, identity, and more.</p>
+    </div>
+  </div>
+
+  <div class="grid gap-6 md:grid-cols-3 gap-x-6 gap-y-6">
+    <!-- Featured module -->
+    <div class="group relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 md:col-span-2 md:row-span-2 [animation:fadeSlideIn_1s_ease-out_0.4s_both] animate-on-scroll">
+      <div class="relative">
+        <img src="https://images.unsplash.com/photo-1635151227785-429f420c6b9d?w=1080&amp;q=80" alt="Smart Wallet SDK" class="aspect-video w-full object-cover">
+        <div class="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>
+      </div>
+      <div class="p-5 sm:p-6">
+        <div class="flex items-center gap-2">
+          <span class="inline-flex items-center gap-1 rounded-full border border-emerald-400/30 bg-emerald-400/15 px-2 py-0.5 text-[11px] font-medium text-emerald-200 font-geist">AUDITED</span>
+        <span class="text-xs text-white/60 font-geist">EVM • iOS • Android SDKs</span>
+        </div>
+        <h3 class="mt-3 text-2xl sm:text-3xl font-geist tracking-tighter" style="">Smart Wallet SDK</h3>
+        <p class="mt-2 text-sm sm:text-base text-white/70 font-geist">Account abstraction with social login, passkeys, and programmable permissions. Gas sponsorship built-in.</p>
+        <div class="mt-5 flex flex-wrap items-center gap-3">
+          <a href="#cta" class="inline-flex items-center gap-2 rounded-lg border border-white/10 bg-white/5 px-4 py-2 text-sm font-medium text-white/90 backdrop-blur hover:bg-white/10 font-geist">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4"><polygon points="6 3 20 12 6 21 6 3"></polygon></svg>
+            View docs
+          </a>
+          <a href="#" class="inline-flex items-center gap-2 text-sm font-medium text-white/90 bg-white/5 border-white/10 border rounded-lg px-4 py-2 hover:bg-white/10 font-geist">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4"><path d="M12 5v14"></path><path d="M5 12h14"></path></svg>
+            Add to stack
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Module card 1 -->
+    <div class="relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 [animation:fadeSlideIn_1s_ease-out_0.5s_both] animate-on-scroll">
+      <div class="sm:p-6 pt-5 pr-5 pb-5 pl-5">
+        <div class="flex items-center justify-between">
+          <h3 class="text-xl font-medium tracking-tight flex items-center gap-2 font-geist">
+            Gasless transactions
+          </h3>
+          <span class="inline-flex items-center rounded-full border border-purple-400/30 bg-purple-400/15 px-2 py-0.5 text-[11px] font-medium text-purple-200 font-geist">ZK</span>
+        </div>
+        <p class="mt-2 text-sm text-white/70 font-geist">Sponsor user gas with paymasters. Aggregate signatures and batch actions securely.</p>
+        <div class="mt-4 rounded-lg overflow-hidden border border-white/10">
+          <img src="https://images.unsplash.com/photo-1621619856624-42fd193a0661?w=1080&amp;q=80" alt="Gasless" class="aspect-video w-full object-cover">
+        </div>
+      </div>
+    </div>
+
+    <!-- Module card 2 -->
+    <div class="relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 [animation:fadeSlideIn_1s_ease-out_0.6s_both] animate-on-scroll">
+      <div class="sm:p-6 pt-5 pr-5 pb-5 pl-5">
+        <div class="flex items-center justify-between">
+          <h3 class="text-xl font-medium tracking-tight flex items-center gap-2 font-geist">
+            Multi-chain Lends
+          </h3>
+          <span class="inline-flex items-center rounded-full border border-sky-400/30 bg-sky-400/15 px-2 py-0.5 text-[11px] font-medium text-sky-200 font-geist">INFRA</span>
+        </div>
+        <p class="mt-2 text-sm text-white/70 font-geist">Global edge network with auto-failover, request caching.</p>
+        <div class="mt-4 rounded-lg overflow-hidden border border-white/10">
+          <img src="https://images.unsplash.com/photo-1642615835477-d303d7dc9ee9?w=1080&amp;q=80" alt="RPC" class="aspect-video w-full object-cover">
+        </div>
+      </div>
+    </div>
+
+    <!-- Small cards -->
+    <div class="relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 [animation:fadeSlideIn_1s_ease-out_0.1s_both] animate-on-scroll">
+      <div class="sm:p-6 pt-5 pr-5 pb-5 pl-5">
+        <h3 class="text-lg font-medium tracking-tight flex items-center gap-2 font-geist">
+          NFT Launchpad
+        </h3>
+        <p class="mt-2 text-sm text-white/70 font-geist">Mint, airdrop, and manage collections with royalties and allowlists.</p>
+        <div class="mt-4 rounded-lg overflow-hidden border border-white/10">
+          <img src="https://images.unsplash.com/photo-1635151227785-429f420c6b9d?w=1080&amp;q=80" alt="NFTs" class="aspect-video w-full object-cover" style="">
+        </div>
+      </div>
+    </div>
+
+    <div class="overflow-hidden bg-white/5 border-white/10 border rounded-2xl relative [animation:fadeSlideIn_1s_ease-out_0.2s_both] animate-on-scroll">
+      <div class="sm:p-6 pt-5 pr-5 pb-5 pl-5">
+        <h3 class="text-lg font-medium tracking-tight flex items-center gap-2 font-geist">
+          Identity &amp; Permissions
+        </h3>
+        <p class="mt-2 text-sm text-white/70 font-geist">Non-custodial auth with smart policies, session keys, and role-based access.</p>
+        <div class="mt-4 rounded-lg overflow-hidden border border-white/10">
+          <img src="https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=1080&amp;q=80" alt="Identity" class="aspect-video w-full object-cover" style="">
+        </div>
+      </div>
+    </div>
+
+    <div class="overflow-hidden [animation:fadeSlideIn_1s_ease-out_0.3s_both] animate-on-scroll bg-white/5 border-white/10 border rounded-2xl relative">
+      <div class="sm:p-6 pt-5 pr-5 pb-5 pl-5">
+        <h3 class="text-lg font-medium tracking-tight flex items-center gap-2 font-geist">
+          DeFi Aggregator
+        </h3>
+        <p class="mt-2 text-sm text-white/70 font-geist">Best-price routing across AMMs, DEXs, and bridges with MEV protection.</p>
+        <div class="mt-4 rounded-lg overflow-hidden border border-white/10">
+          <img src="https://images.unsplash.com/photo-1556157382-97eda2d62296?w=1080&amp;q=80" alt="DeFi" class="aspect-video w-full object-cover">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- How it works -->
+<section class="z-10 sm:px-6 lg:px-8 max-w-7xl mx-auto pt-8 px-4 pb-20 relative" id="how-it-works">
+  <div class="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-4 mb-8">
+    <div class="text-center w-full">
+      <p class="text-sm font-medium text-white/50 font-geist [animation:fadeSlideIn_1s_ease-out_0.1s_both] animate-on-scroll">How it works</p>
+      <h2 class="text-3xl sm:text-4xl md:text-5xl font-geist tracking-tighter [animation:fadeSlideIn_1s_ease-out_0.2s_both] animate-on-scroll" style="">ChainBridge V2</h2>
+    </div>
+  </div>
+
+  <div class="grid gap-6 md:grid-cols-3 gap-x-6 gap-y-6">
+    <!-- Card 1 -->
+    <div class="relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 [animation:fadeSlideIn_1s_ease-out_0.4s_both] animate-on-scroll">
+      <div class="sm:p-6 pt-5 pr-5 pb-5 pl-5 text-center">
+        <h3 class="text-xl font-medium tracking-tight flex items-center gap-2 font-geist justify-center">
+          Connect wallet
+        </h3>
+        <p class="mt-2 text-sm text-white/70 font-geist text-center">Seamlessly connect your wallet to access the platform.</p>
+        <div class="flex justify-center mt-4">
+          <div class="newtons-cradle">
+            <div class="newtons-cradle__dot"></div>
+            <div class="newtons-cradle__dot"></div>
+            <div class="newtons-cradle__dot"></div>
+            <div class="newtons-cradle__dot"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 [animation:fadeSlideIn_1s_ease-out_0.5s_both] animate-on-scroll">
+      <div class="sm:p-6 pt-5 pr-5 pb-5 pl-5 text-center">
+        <h3 class="text-xl font-medium tracking-tight flex items-center gap-2 font-geist justify-center">
+          Stake/swap
+        </h3>
+        <p class="mt-2 text-sm text-white/70 font-geist text-center">Stake your assets or swap them across different chains.</p>
+        <div class="flex justify-center">
+          <div class="stake-swap-animation-container">
+            <div class="top">
+              <div class="square">
+                <div class="square">
+                  <div class="square">
+                    <div class="square">
+                      <div class="square"><div class="square">
+                      </div></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="bottom">
+              <div class="square">
+                <div class="square">
+                  <div class="square">
+                    <div class="square">
+                      <div class="square"><div class="square">
+                      </div></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="left">
+              <div class="square">
+                <div class="square">
+                  <div class="square">
+                    <div class="square">
+                      <div class="square"><div class="square">
+                      </div></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="right">
+              <div class="square">
+                <div class="square">
+                  <div class="square">
+                    <div class="square">
+                      <div class="square"><div class="square">
+                      </div></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 [animation:fadeSlideIn_1s_ease-out_0.6s_both] animate-on-scroll">
+      <div class="sm:p-6 pt-5 pr-5 pb-5 pl-5 text-center">
+        <h3 class="text-xl font-medium tracking-tight flex items-center gap-2 font-geist justify-center">
+          Earn/govern
+        </h3>
+        <p class="mt-2 text-sm text-white/70 font-geist text-center">Earn rewards and participate in the governance of the protocol.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Ecosystem -->
+<section class="overflow-hidden relative" style="background: linear-gradient(transparent, rgba(139, 92, 246, 0.05), transparent);" id="library">
+  <div class="sm:px-6 lg:px-8 [animation:fadeSlideIn_1s_ease-out_0.1s_both] animate-on-scroll max-w-7xl mx-auto pt-16 px-4 pb-16">
+    <div class="max-w-4xl mx-auto text-center [animation:fadeSlideIn_1s_ease-out_0.2s_both] animate-on-scroll">
+      <span class="inline-flex items-center rounded-full border border-white/10 bg-white/5 px-3 py-1 text-[11px] font-medium text-white/70 backdrop-blur font-geist">Ecosystem</span>
+      <h2 class="text-3xl sm:text-4xl md:text-5xl mt-4 font-geist tracking-tighter">Explore the ecosystem</h2>
+      <p class="mt-4 text-base text-white/70 font-geist">Thousands of integrations, templates, and partners to accelerate your roadmap.</p>
+    </div>
+
+    <div class="[animation:fadeSlideIn_1s_ease-out_0.3s_both] animate-on-scroll mt-10 relative">
+      <div class="grid gap-6 md:grid-cols-3 gap-x-6 gap-y-6">
+        <div class="relative overflow-hidden bg-white/5 border border-white/10 rounded-2xl backdrop-blur-xl group cursor-pointer">
+          <img src="https://images.unsplash.com/photo-1621619856624-42fd193a0661?w=1080&amp;q=80" alt="DeFi" class="w-full aspect-video object-cover">
+          <div class="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent"></div>
+          <div class="absolute bottom-0 left-0 right-0 p-5 sm:p-6">
+            <h3 class="text-xl font-semibold tracking-tight font-geist">DeFi</h3>
+            <p class="text-sm text-white/70 mt-1 font-geist">250k+ Lenders</p>
+          </div>
+        </div>
+
+        <div class="relative overflow-hidden bg-white/5 border border-white/10 rounded-2xl backdrop-blur-xl group cursor-pointer">
+          <img src="https://images.unsplash.com/photo-1642615835477-d303d7dc9ee9?w=1080&amp;q=80" alt="NFTs" class="w-full aspect-video object-cover" style="">
+          <div class="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent"></div>
+          <div class="absolute bottom-0 left-0 right-0 p-5 sm:p-6">
+            <h3 class="text-xl font-semibold tracking-tight font-geist">NFTs</h3>
+            <p class="text-sm text-white/70 mt-1 font-geist">400+ creators</p>
+          </div>
+        </div>
+
+        <div class="relative overflow-hidden bg-white/5 border border-white/10 rounded-2xl backdrop-blur-xl group cursor-pointer">
+          <img src="gaming.png" alt="Gaming" class="w-full aspect-video object-cover">
+          <div class="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent"></div>
+          <div class="absolute bottom-0 left-0 right-0 p-5 sm:p-6">
+            <h3 class="text-xl font-semibold tracking-tight font-geist">Gaming</h3>
+            <p class="text-sm text-white/70 mt-1 font-geist">180+ titles</p>
+          </div>
+        </div>
+
+        <div class="relative overflow-hidden bg-white/5 border border-white/10 rounded-2xl backdrop-blur-xl group cursor-pointer">
+          <img src="https://images.unsplash.com/photo-1541560052-77ec1bbc09f7?w=1200&amp;q=80" alt="Identity" class="w-full aspect-video object-cover">
+          <div class="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent"></div>
+          <div class="absolute bottom-0 left-0 right-0 p-5 sm:p-6">
+            <h3 class="text-xl font-semibold tracking-tight font-geist">Identity</h3>
+            <p class="text-sm text-white/70 mt-1 font-geist">SBTs &amp; verifiable creds</p>
+          </div>
+        </div>
+
+        <div class="relative overflow-hidden bg-white/5 border border-white/10 rounded-2xl backdrop-blur-xl group cursor-pointer">
+          <img src="https://images.unsplash.com/photo-1504384764586-bb4cdc1707b0?w=1200&amp;q=80" alt="Infrastructure" class="w-full aspect-video object-cover" style="">
+          <div class="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent"></div>
+          <div class="absolute bottom-0 left-0 right-0 p-5 sm:p-6">
+            <h3 class="text-xl font-semibold tracking-tight font-geist">Infrastructure</h3>
+            <p class="text-sm text-white/70 mt-1 font-geist">150+ partners</p>
+          </div>
+        </div>
+
+        <div class="relative overflow-hidden bg-white/5 border border-white/10 rounded-2xl backdrop-blur-xl group cursor-pointer">
+          <img src="https://images.unsplash.com/photo-1635151227785-429f420c6b9d?w=1080&amp;q=80" alt="DAOs" class="w-full aspect-video object-cover">
+          <div class="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent"></div>
+          <div class="absolute bottom-0 left-0 right-0 p-5 sm:p-6">
+            <h3 class="text-xl font-semibold tracking-tight font-geist">DAOs</h3>
+            <p class="text-sm text-white/70 mt-1 font-geist">20K+ communities</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="mt-8 text-center">
+        <a href="#cta" class="inline-flex items-center gap-2 rounded-xl border border-white/10 bg-white/5 px-6 py-3 text-base font-medium text-white/90 backdrop-blur hover:bg-white/10 font-geist">
+          Browse all integrations
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4"><path d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Pricing -->
+<section class="sm:p-8 sm:ml-8 sm:mr-8 sm:mb-10 mt-10 mr-8 mb-10 ml-8 pt-6 pr-6 pb-6 pl-6" id="plans" style="">
+  <div class="relative">
+    <div class="relative max-w-5xl mx-auto text-center [animation:fadeSlideIn_1s_ease-out_0.1s_both] animate-on-scroll">
+      <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/5 border border-white/10 text-white/80">
+        <span class="h-1.5 w-1.5 rounded-full bg-white"></span>
+        <span class="text-xs font-normal font-geist">Usage &amp; pricing</span>
+      </div>
+      <h2 class="text-[40px] sm:text-6xl leading-[0.95] text-white mt-4 font-geist tracking-tighter" style="">Choose your plan</h2>
+      <p class="mt-3 text-sm sm:text-base text-white/70 max-w-2xl mx-auto font-geist">
+        All plans include multi-chain RPC, SDKs, testnet access, and generous free tier. Upgrade for SLAs and scale.
+      </p>
+    </div>
+
+    <div class="relative max-w-7xl mx-auto mt-8 grid grid-cols-1 md:grid-cols-2 gap-6 px-4 sm:px-6 lg:px-8">
+      <!-- Builder Plan -->
+      <article class="relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 backdrop-blur-xl p-5 sm:p-6 [animation:fadeSlideIn_1s_ease-out_0.2s_both] animate-on-scroll">
+        <div class="absolute inset-0 pointer-events-none" style="background: radial-gradient(80% 120% at 10% 0%, rgba(139,92,246,0.14) 0%, rgba(0,0,0,0) 55%)"></div>
+        <div class="relative flex items-center justify-between">
+          <div></div>
+          <span class="relative z-10 inline-flex items-center px-3 py-1 rounded-lg text-xs font-medium text-white/80 bg-white/5 border border-white/10 font-geist">Free</span>
+        </div>
+
+        <div class="relative mt-5 text-center">
+          <h3 class="text-xl text-white font-medium tracking-tight font-geist">Builder</h3>
+          <div class="mt-3 flex items-end justify-center gap-3">
+            <p class="text-4xl sm:text-5xl text-white font-geist tracking-tighter" style="">$0</p>
+            <span class="text-white/70 text-sm mb-1 font-geist">/ month</span>
+          </div>
+          <p class="mt-3 text-sm text-white/70 font-geist">
+            Everything you need to prototype and launch to mainnet.
+          </p>
+
+          <div class="mt-4 flex flex-wrap gap-2 justify-center">
+            <span class="inline-flex items-center rounded-lg border border-white/10 bg-white/5 px-3 py-1 text-xs font-medium text-white/80 font-geist">10M requests</span>
+            <span class="inline-flex items-center rounded-lg border border-white/10 bg-white/5 px-3 py-1 text-xs font-medium text-white/80 font-geist">Mainnet + Testnet</span>
+          </div>
+        </div>
+
+        <ul class="mt-5 space-y-3">
+          <li class="flex items-center gap-3">
+            <span class="h-5 w-5 flex items-center justify-center rounded-full bg-white/5 border border-white/10">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-3.5 h-3.5 text-purple-400"><path d="M20 6 9 17l-5-5"></path></svg>
+            </span>
+            <span class="text-sm text-white/90 font-geist">Multi-chain RPC endpoints</span>
+          </li>
+          <li class="flex gap-3 items-center">
+            <span class="h-5 w-5 flex items-center justify-center rounded-full bg-white/5 border border-white/10">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-3.5 h-3.5 text-purple-400"><path d="M20 6 9 17l-5-5"></path></svg>
+            </span>
+            <span class="text-sm text-white/90 font-geist">Webhooks &amp; real-time events</span>
+          </li>
+          <li class="flex items-center gap-3">
+            <span class="h-5 w-5 flex items-center justify-center rounded-full bg-white/5 border border-white/10">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-3.5 h-3.5 text-purple-400"><path d="M20 6 9 17l-5-5"></path></svg>
+            </span>
+            <span class="text-sm text-white/90 font-geist">Wallet &amp; NFT SDKs</span>
+          </li>
+          <li class="flex gap-3 items-center">
+            <span class="h-5 w-5 flex items-center justify-center rounded-full bg-white/5 border border-white/10">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-3.5 h-3.5 text-purple-400"><path d="M20 6 9 17l-5-5"></path></svg>
+            </span>
+            <span class="text-sm text-white/80 font-geist">Community support</span>
+          </li>
+        </ul>
+
+        <a href="#cta" class="mt-6 inline-flex items-center justify-center gap-2 h-11 w-full rounded-xl bg-purple-600 text-white text-sm font-medium hover:bg-purple-500 transition font-geist">
+          Get API key
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4.5 h-4.5"><path d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg>
+        </a>
+      </article>
+
+      <!-- Enterprise Plan -->
+      <article class="relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 backdrop-blur-xl p-5 sm:p-6 [animation:fadeSlideIn_1s_ease-out_0.3s_both] animate-on-scroll">
+        <div class="absolute inset-0 pointer-events-none" style="background: radial-gradient(80% 120% at 90% -10%, rgba(239,68,68,0.16) 0%, rgba(0,0,0,0) 55%)"></div>
+        <div class="relative flex items-center justify-between">
+          <div></div>
+          <span class="relative z-10 inline-flex items-center px-3 py-1 rounded-lg text-xs font-medium text-white/80 bg-white/5 border border-white/10 font-geist">Scale</span>
+        </div>
+
+        <div class="relative mt-5 text-center">
+          <h3 class="text-xl text-white font &lt;h3 class=" text-xl="" text-white="" font-medium="" tracking-tight="" font-geist"="">Enterprise</h3>
+          <div class="mt-3 flex items-end justify-center gap-3">
+            <p class="text-4xl sm:text-5xl text-white font-geist tracking-tighter">Custom</p>
+            <span class="text-white/70 text-sm mb-1 font-geist">/ annual</span>
+          </div>
+          <p class="mt-3 text-sm text-white/70 font-geist">
+            SLAs, dedicated support, and enterprise security at global scale.
+          </p>
+
+          <div class="mt-4 flex flex-wrap gap-2 justify-center">
+            <span class="inline-flex items-center rounded-lg border border-white/10 bg-white/5 px-3 py-1 text-xs font-medium text-white/80 font-geist">99.99% uptime SLA</span>
+            <span class="inline-flex items-center rounded-lg border border-white/10 bg-white/5 px-3 py-1 text-xs font-medium text-white/80 font-geist">24/7 priority support</span>
+          </div>
+        </div>
+
+        <ul class="&lt;ul class=" mt-5="" space-y-3"="">
+          <li class="flex items-center gap-3">
+            <span class="h-5 w-5 flex items-center justify-center rounded-full bg-white/5 border border-white/10">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-3.5 h-3.5 text-rose-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5"></path></svg>
+            </span>
+            <span class="text-sm text-white/90 font-geist">Dedicated VPC and private RPC endpoints</span>
+          </li>
+          <li class="flex items-center gap-3">
+            <span class="h-5 w-5 flex items-center justify-center rounded-full bg-white/5 border border-white/10">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-3.5 h-3.5 text-rose-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5"></path></svg>
+            </span>
+            <span class="text-sm text-white/90 font-geist">SAML SSO, RBAC, and audit logs (SIEM export)</span>
+          </li>
+          <li class="flex items-center gap-3">
+            <span class="h-5 w-5 flex items-center justify-center rounded-full bg-white/5 border border-white/10">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-3.5 h-3.5 text-rose-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5"></path></svg>
+            </span>
+            <span class="text-sm text-white/90 font-geist">Custom rate limits, burst control, and QoS</span>
+          </li>
+          <li class="flex items-center gap-3">
+            <span class="h-5 w-5 flex items-center justify-center rounded-full bg-white/5 border border-white/10">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-3.5 h-3.5 text-rose-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5"></path></svg>
+            </span>
+            <span class="text-sm text-white/90 font-geist">Geo/region pinning and data residency options</span>
+          </li>
+          <li class="flex items-center gap-3">
+            <span class="h-5 w-5 flex items-center justify-center rounded-full bg-white/5 border border-white/10">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-3.5 h-3.5 text-rose-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5"></path></svg>
+            </span>
+            <span class="text-sm text-white/90 font-geist">Contract reviews and proactive threat monitoring</span>
+          </li>
+          <li class="flex items-center gap-3">
+            <span class="h-5 w-5 flex items-center justify-center rounded-full bg-white/5 border border-white/10">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-3.5 h-3.5 text-rose-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5"></path></svg>
+            </span>
+            <span class="text-sm text-white/90 font-geist">White‑glove onboarding and migration support</span>
+          </li>
+        </ul>
+
+        <a href="#contact" class="mt-6 inline-flex items-center justify-center gap-2 h-11 w-full rounded-xl bg-white/5 border border-white/10 text-white text-sm font-medium hover:bg-white/10 transition font-geist">
+          Contact sales
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-[24px] h-[24px]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" data-element-locator="html &gt; body:nth-of-type(1) &gt; section:nth-of-type(5) &gt; div:nth-of-type(1) &gt; div:nth-of-type(2) &gt; article:nth-of-type(2) &gt; a:nth-of-type(1) &gt; svg:nth-of-type(1)" data-icon-replaced="true" style="width: 24px; height: 24px; color: rgb(255, 255, 255);"><path d="M7 7h10v10" class=""></path><path d="M7 17 17 7" class=""></path></svg>
+        </a>
+
+        <p class="mt-3 text-center text-xs text-white/60 font-geist">Volume-based pricing • Annual contracts • Security review</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq" class="relative sm:px-6 lg:px-8 max-w-5xl mx-auto pt-6 pb-20 px-6">
+  <div class="text-center max-w-3xl mx-auto">
+    <span class="inline-flex items-center rounded-full border border-white/10 bg-white/5 px-3 py-1 text-[11px] font-medium text-white/70 backdrop-blur font-geist">Questions</span>
+    <h2 class="text-3xl sm:text-4xl md:text-5xl mt-4 font-geist tracking-tighter">Frequently asked</h2>
+    <p class="mt-3 text-base text-white/70 font-geist">Everything you need to know about Novastake, billing, and support.</p>
+  </div>
+  <div class="mt-10 space-y-3">
+    <details class="group rounded-xl border border-white/10 bg-white/5 p-5 transition">
+      <summary class="flex cursor-pointer list-none items-center justify-between">
+        <span class="text-sm sm:text-base font-medium font-geist">What chains do you support?</span>
+        <span class="ml-4 inline-flex h-7 w-7 items-center justify-center rounded-lg bg-white/5 border border-white/10 transition group-open:rotate-45">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-white/80" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14"></path><path d="M5 12h14"></path></svg>
+        </span>
+      </summary>
+      <div class="pt-3 text-white/70 text-sm sm:text-base font-geist">
+        EVM (Ethereum, Polygon, Base, Optimism, Arbitrum, and more) plus select non‑EVM networks. New chains are added regularly.
+      </div>
+    </details>
+
+    <details class="group rounded-xl border border-white/10 bg-white/5 p-5 transition">
+      <summary class="flex cursor-pointer list-none items-center justify-between">
+        <span class="text-sm sm:text-base font-medium font-geist">How does the free tier work?</span>
+        <span class="ml-4 inline-flex h-7 w-7 items-center justify-center rounded-lg bg-white/5 border border-white/10 transition group-open:rotate-45">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-white/80" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14"></path><path d="M5 12h14"></path></svg>
+        </span>
+      </summary>
+      <div class="pt-3 text-white/70 text-sm sm:text-base font-geist">
+        The Builder plan includes generous monthly request limits across mainnets and testnets. No credit card required to start.
+      </div>
+    </details>
+
+    <details class="group rounded-xl border border-white/10 bg-white/5 p-5 transition">
+      <summary class="flex cursor-pointer list-none items-center justify-between">
+        <span class="text-sm sm:text-base font-medium font-geist">Can I migrate from another provider?</span>
+        <span class="ml-4 inline-flex h-7 w-7 items-center justify-center rounded-lg bg-white/5 border border-white/10 transition group-open:rotate-45">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-white/80" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14"></path><path d="M5 12h14"></path></svg>
+        </span>
+      </summary>
+      <div class="pt-3 text-white/70 text-sm sm:text-base font-geist">
+        Yes. We provide migration guides, one‑click RPC switching, and optional white‑glove assistance for complex setups.
+      </div>
+    </details>
+
+    <details class="group rounded-xl border border-white/10 bg-white/5 p-5 transition">
+      <summary class="flex cursor-pointer list-none items-center justify-between">
+        <span class="text-sm sm:text-base font-medium font-geist">Is NOVASTAKE suitable for Hedgefunds?</span>
+        <span class="ml-4 inline-flex h-7 w-7 items-center justify-center rounded-lg bg-white/5 border border-white/10 transition group-open:rotate-45">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-white/80" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14"></path><path d="M5 12h14"></path></svg>
+        </span>
+      </summary>
+      <div class="pt-3 text-white/70 text-sm sm:text-base font-geist">
+        Absolutely—SLAs, SSO/SAML, audit logs, VPC peering, and custom compliance support are available on Enterprise plans.
+      </div>
+    </details>
+  </div>
+</section>
+
+<!-- CTA Banner -->
+<section class="sm:py-20 pt-16 pb-16 relative" data-element-locator="html &gt; body:nth-of-type(1) &gt; section:nth-of-type(7)" id="contact">
+  <div class="absolute inset-0 -z-10 opacity-50" style="background: radial-gradient(60% 80% at 50% 0%, rgba(139,92,246,0.16) 0%, rgba(0,0,0,0) 60%)"></div>
+  <div class="max-w-6xl mx-auto px-6">
+    <div class="rounded-2xl border border-white/10 bg-gradient-to-br from-white/5 via-white/5 to-purple-600/10 p-6 sm:p-10 text-center">
+      <h3 class="text-2xl sm:text-3xl md:text-4xl font-geist tracking-tighter">Ready to build onchain?</h3>
+      <p class="mt-3 text-white/70 max-w-2xl mx-auto font-geist">Join 200k+ builders using ChainVault infra to ship wallets, NFTs, and DeFi apps at scale.</p>
+      <div class="flex flex-col sm:flex-row gap-3 mt-6 gap-x-3 gap-y-3 justify-center" data-element-locator="html &gt; body:nth-of-type(1) &gt; section:nth-of-type(7) &gt; div:nth-of-type(2) &gt; div:nth-of-type(1) &gt; div:nth-of-type(1)">
+        <a href="#cta" class="inline-flex items-center justify-center gap-2 hover:bg-purple-500 transition text-sm font-medium font-geist bg-purple-600 rounded-full pt-2.5 pr-5 pb-2.5 pl-5">
+          Get started free
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 7h10v10" class=""></path><path d="M7 17 17 7"></path></svg>
+        </a>
+        <a href="mailto:sales@chainvault.dev" class="inline-flex items-center justify-center gap-2 hover:bg-white/10 transition text-sm font-medium font-geist bg-white/5 border-white/10 border rounded-full h-11 px-6 whitespace-nowrap leading-none focus:outline-none focus:ring-2 focus:ring-purple-500/40" data-element-locator="html &gt; body:nth-of-type(1) &gt; section:nth-of-type(7) &gt; div:nth-of-type(2) &gt; div:nth-of-type(1) &gt; div:nth-of-type(1) &gt; a:nth-of-type(2)">
+  Talk to sales
+  <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a4 4 0 0 1-4 4H7l-4 4V5a4 4 0 0 1 4-4h10a4 4 0 0 1 4 4z"></path></svg>
+</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="border-t border-white/10">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <div class="grid gap-10 md:grid-cols-4">
+      <div>
+        <a href="/" class="text-xl font-semibold tracking-tight font-geist">Novastake</a>
+        <p class="mt-3 text-sm text-white/70 font-geist">Build, ship, and scale onchain with a modular Web3 stack—wallets, NFTs, DeFi, and infra.</p>
+        <div class="mt-4 flex items-center gap-2">
+          <span class="text-xs text-white/50 font-geist">Status:</span>
+          <span class="inline-flex items-center gap-1 rounded-full border border-emerald-400/30 bg-emerald-400/10 px-2 py-0.5 text-[11px] font-medium text-emerald-200 font-geist">
+            Online
+            <span class="h-1.5 w-1.5 rounded-full bg-emerald-400"></span>
+          </span>
+        </div>
+      </div>
+
+      <div class="">
+        <h4 class="text-sm font-semibold text-white/80 font-geist">Product</h4>
+        <ul class="mt-3 space-y-2 text-sm text-white/70 font-geist">
+          <li><a class="hover:text-white transition" href="#originals">Modules</a></li>
+          <li><a class="hover:text-white transition" href="#library">Ecosystem</a></li>
+          <li><a class="hover:text-white transition" href="#plans">Pricing</a></li>
+          <li><a class="hover:text-white transition" href="#faq">FAQ</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4 class="text-sm font-semibold text-white/80 font-geist">Resources</h4>
+        <ul class="mt-3 space-y-2 text-sm text-white/70 font-geist">
+          <li><a class="hover:text-white transition" href="#cta">Docs</a></li>
+          <li><a class="hover:text-white transition" href="#">Changelog</a></li>
+          <li><a class="hover:text-white transition" href="#">GitHub</a></li>
+          <li><a class="hover:text-white transition" href="#">Support</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4 class="text-sm font-semibold text-white/80 font-geist">Subscribe</h4>
+        <p class="mt-3 text-sm text-white/70 font-geist">Get product updates and release notes.</p>
+        <form class="mt-3 flex gap-2" onsubmit="event.preventDefault(); alert('Thanks for subscribing!');">
+          <label class="sr-only" for="newsletter">Email</label>
+          <input id="newsletter" type="email" required="" placeholder="you@company.com" class="w-full rounded-lg bg-white/5 border border-white/10 px-3 py-2 text-sm placeholder-white/40 focus:outline-none focus:ring-2 focus:ring-purple-500/40">
+          <button class="rounded-lg bg-purple-600 hover:bg-purple-500 px-4 py-2 text-sm font-medium">Subscribe</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="mt-10 flex flex-col sm:flex-row items-center justify-between gap-4">
+      <p class="text-xs text-white/50 font-geist">© <span id="year">2025</span> ChainVault, Inc. All rights reserved.</p>
+      <div class="flex items-center gap-4 text-xs text-white/60 font-geist">
+        <a href="#" class="hover:text-white transition">Terms</a>
+        <a href="#" class="hover:text-white transition">Privacy</a>
+        <a href="#" class="hover:text-white transition">Security</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Mobile menu -->
+<div id="mobileMenu" class="fixed inset-0 z-50 hidden" aria-hidden="true">
+  <div class="absolute inset-0 bg-black/60 backdrop-blur-sm"></div>
+  <nav class="absolute right-0 top-0 h-full w-[85%] max-w-xs bg-neutral-950 border-l border-white/10 p-6 flex flex-col">
+    <div class="flex items-center justify-between">
+      <span class="text-lg font-semibold tracking-tight font-geist">Menu</span>
+      <button id="mobileMenuClose" class="inline-flex h-9 w-9 items-center justify-center rounded-lg bg-white/5 border border-white/10 hover:bg-white/10" aria-label="Close menu">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-4.5 w-4.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6 6 18"></path><path d="m6 6 12 12"></path></svg>
+      </button>
+    </div>
+    <div class="mt-6 grid gap-2 text-sm font-geist">
+      <a class="rounded-lg px-3 py-2 hover:bg-white/5" href="#originals">Products</a>
+      <a class="rounded-lg px-3 py-2 hover:bg-white/5" href="#library">Ecosystem</a>
+      <a class="rounded-lg px-3 py-2 hover:bg-white/5" href="#plans">Pricing</a>
+      <a class="rounded-lg px-3 py-2 hover:bg-white/5" href="#faq">Docs</a>
+      <a class="group relative inline-flex min-w-[120px] cursor-pointer transition-all duration-[1000ms] ease-[cubic-bezier(0.15,0.83,0.66,1)] hover:-translate-y-[3px] hover:text-white shadow-[0_2.8px_2.2px_rgba(0,0,0,0.3),_0_6.7px_5.3px_rgba(0,0,0,0.35),_0_12.5px_10px_rgba(0,0,0,0.4)] overflow-hidden font-semibold text-neutral-400 tracking-tight bg-neutral-800 border-neutral-600 border rounded-full pt-[12px] pr-[20px] pb-[12px] pl-[20px] items-center justify-center" href="#cta">Launch App</a>
+    </div>
+  </nav>
+</div>
+
+<script>
+  // Dynamic year
+  document.getElementById('year').textContent = new Date().getFullYear();
+
+  // Mobile menu toggle
+  const toggle = document.getElementById('mobileMenuToggle');
+  const closeBtn = document.getElementById('mobileMenuClose');
+  const menu = document.getElementById('mobileMenu');
+
+  function openMenu() {
+    menu.classList.remove('hidden');
+    menu.setAttribute('aria-hidden', 'false');
+    toggle?.setAttribute('aria-expanded', 'true');
+  }
+  function closeMenu() {
+    menu.classList.add('hidden');
+    menu.setAttribute('aria-hidden', 'true');
+    toggle?.setAttribute('aria-expanded', 'false');
+  }
+  toggle?.addEventListener('click', openMenu);
+  closeBtn?.addEventListener('click', closeMenu);
+  menu?.addEventListener('click', (e) => {
+    if (e.target === menu) closeMenu();
+  });
+
+  // Initialize Lucide icons if available
+  if (window.lucide && typeof window.lucide.createIcons === 'function') {
+    window.lucide.createIcons();
+  }
+</script>
+
+</body></html>
